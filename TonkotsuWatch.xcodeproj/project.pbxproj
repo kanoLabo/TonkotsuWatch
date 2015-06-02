@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6C43F11B1D531A0086DD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C43F01B1D531A0086DD36 /* AppDelegate.swift */; };
+		1C6C43F31B1D531A0086DD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C43F21B1D531A0086DD36 /* ViewController.swift */; };
+		1C6C43F61B1D531A0086DD36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C43F41B1D531A0086DD36 /* Main.storyboard */; };
+		1C6C43F81B1D531A0086DD36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C43F71B1D531A0086DD36 /* Images.xcassets */; };
+		1C6C43FB1B1D531A0086DD36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C43F91B1D531A0086DD36 /* LaunchScreen.xib */; };
+		1C6C44071B1D531A0086DD36 /* TonkotsuWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C44061B1D531A0086DD36 /* TonkotsuWatchTests.swift */; };
+		1C6C441A1B1D532C0086DD36 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C44191B1D532C0086DD36 /* InterfaceController.swift */; };
+		1C6C441C1B1D532C0086DD36 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C441B1B1D532C0086DD36 /* NotificationController.swift */; };
+		1C6C441E1B1D532C0086DD36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C441D1B1D532C0086DD36 /* Images.xcassets */; };
+		1C6C44221B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C44211B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app */; };
+		1C6C442C1B1D532C0086DD36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C442B1B1D532C0086DD36 /* Images.xcassets */; };
+		1C6C442F1B1D532C0086DD36 /* TonkotsuWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C6C44141B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C6C44381B1D54280086DD36 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C44371B1D54280086DD36 /* Interface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C6C44011B1D531A0086DD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6C43E31B1D53190086DD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6C43EA1B1D531A0086DD36;
+			remoteInfo = TonkotsuWatch;
+		};
+		1C6C44231B1D532C0086DD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6C43E31B1D53190086DD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6C44201B1D532C0086DD36;
+			remoteInfo = "TonkotsuWatch WatchKit App";
+		};
+		1C6C442D1B1D532C0086DD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6C43E31B1D53190086DD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6C44131B1D532A0086DD36;
+			remoteInfo = "TonkotsuWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C6C44361B1D532C0086DD36 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C6C442F1B1D532C0086DD36 /* TonkotsuWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C6C43EB1B1D531A0086DD36 /* TonkotsuWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonkotsuWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6C43EF1B1D531A0086DD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6C43F01B1D531A0086DD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C6C43F21B1D531A0086DD36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C6C43F51B1D531A0086DD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C6C43F71B1D531A0086DD36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C6C43FA1B1D531A0086DD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1C6C44001B1D531A0086DD36 /* TonkotsuWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonkotsuWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6C44051B1D531A0086DD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6C44061B1D531A0086DD36 /* TonkotsuWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonkotsuWatchTests.swift; sourceTree = "<group>"; };
+		1C6C44141B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TonkotsuWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6C44171B1D532C0086DD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6C44181B1D532C0086DD36 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1C6C44191B1D532C0086DD36 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1C6C441B1B1D532C0086DD36 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1C6C441D1B1D532C0086DD36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C6C44211B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TonkotsuWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6C44271B1D532C0086DD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6C442B1B1D532C0086DD36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C6C44371B1D54280086DD36 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6C43E81B1D531A0086DD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C43FD1B1D531A0086DD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C44111B1D532A0086DD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6C43E21B1D53190086DD36 = {
+			isa = PBXGroup;
+			children = (
+				1C6C43ED1B1D531A0086DD36 /* TonkotsuWatch */,
+				1C6C44031B1D531A0086DD36 /* TonkotsuWatchTests */,
+				1C6C44151B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension */,
+				1C6C44251B1D532C0086DD36 /* TonkotsuWatch WatchKit App */,
+				1C6C43EC1B1D531A0086DD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6C43EC1B1D531A0086DD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C43EB1B1D531A0086DD36 /* TonkotsuWatch.app */,
+				1C6C44001B1D531A0086DD36 /* TonkotsuWatchTests.xctest */,
+				1C6C44141B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension.appex */,
+				1C6C44211B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6C43ED1B1D531A0086DD36 /* TonkotsuWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C43F01B1D531A0086DD36 /* AppDelegate.swift */,
+				1C6C43F21B1D531A0086DD36 /* ViewController.swift */,
+				1C6C43F41B1D531A0086DD36 /* Main.storyboard */,
+				1C6C43F71B1D531A0086DD36 /* Images.xcassets */,
+				1C6C43F91B1D531A0086DD36 /* LaunchScreen.xib */,
+				1C6C43EE1B1D531A0086DD36 /* Supporting Files */,
+			);
+			path = TonkotsuWatch;
+			sourceTree = "<group>";
+		};
+		1C6C43EE1B1D531A0086DD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C43EF1B1D531A0086DD36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6C44031B1D531A0086DD36 /* TonkotsuWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44061B1D531A0086DD36 /* TonkotsuWatchTests.swift */,
+				1C6C44041B1D531A0086DD36 /* Supporting Files */,
+			);
+			path = TonkotsuWatchTests;
+			sourceTree = "<group>";
+		};
+		1C6C44041B1D531A0086DD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44051B1D531A0086DD36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6C44151B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44191B1D532C0086DD36 /* InterfaceController.swift */,
+				1C6C441B1B1D532C0086DD36 /* NotificationController.swift */,
+				1C6C441D1B1D532C0086DD36 /* Images.xcassets */,
+				1C6C44161B1D532C0086DD36 /* Supporting Files */,
+			);
+			path = "TonkotsuWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1C6C44161B1D532C0086DD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44171B1D532C0086DD36 /* Info.plist */,
+				1C6C44181B1D532C0086DD36 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6C44251B1D532C0086DD36 /* TonkotsuWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44371B1D54280086DD36 /* Interface.storyboard */,
+				1C6C442B1B1D532C0086DD36 /* Images.xcassets */,
+				1C6C44261B1D532C0086DD36 /* Supporting Files */,
+			);
+			path = "TonkotsuWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		1C6C44261B1D532C0086DD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6C44271B1D532C0086DD36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6C43EA1B1D531A0086DD36 /* TonkotsuWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6C440A1B1D531A0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch" */;
+			buildPhases = (
+				1C6C43E71B1D531A0086DD36 /* Sources */,
+				1C6C43E81B1D531A0086DD36 /* Frameworks */,
+				1C6C43E91B1D531A0086DD36 /* Resources */,
+				1C6C44361B1D532C0086DD36 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6C442E1B1D532C0086DD36 /* PBXTargetDependency */,
+			);
+			name = TonkotsuWatch;
+			productName = TonkotsuWatch;
+			productReference = 1C6C43EB1B1D531A0086DD36 /* TonkotsuWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C6C43FF1B1D531A0086DD36 /* TonkotsuWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6C440D1B1D531A0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatchTests" */;
+			buildPhases = (
+				1C6C43FC1B1D531A0086DD36 /* Sources */,
+				1C6C43FD1B1D531A0086DD36 /* Frameworks */,
+				1C6C43FE1B1D531A0086DD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6C44021B1D531A0086DD36 /* PBXTargetDependency */,
+			);
+			name = TonkotsuWatchTests;
+			productName = TonkotsuWatchTests;
+			productReference = 1C6C44001B1D531A0086DD36 /* TonkotsuWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C6C44131B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6C44331B1D532C0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch WatchKit Extension" */;
+			buildPhases = (
+				1C6C44101B1D532A0086DD36 /* Sources */,
+				1C6C44111B1D532A0086DD36 /* Frameworks */,
+				1C6C44121B1D532A0086DD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6C44241B1D532C0086DD36 /* PBXTargetDependency */,
+			);
+			name = "TonkotsuWatch WatchKit Extension";
+			productName = "TonkotsuWatch WatchKit Extension";
+			productReference = 1C6C44141B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1C6C44201B1D532C0086DD36 /* TonkotsuWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6C44301B1D532C0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch WatchKit App" */;
+			buildPhases = (
+				1C6C441F1B1D532C0086DD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TonkotsuWatch WatchKit App";
+			productName = "TonkotsuWatch WatchKit App";
+			productReference = 1C6C44211B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6C43E31B1D53190086DD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "鹿野壮";
+				TargetAttributes = {
+					1C6C43EA1B1D531A0086DD36 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1C6C43FF1B1D531A0086DD36 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1C6C43EA1B1D531A0086DD36;
+					};
+					1C6C44131B1D532A0086DD36 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1C6C44201B1D532C0086DD36 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1C6C43E61B1D53190086DD36 /* Build configuration list for PBXProject "TonkotsuWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6C43E21B1D53190086DD36;
+			productRefGroup = 1C6C43EC1B1D531A0086DD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6C43EA1B1D531A0086DD36 /* TonkotsuWatch */,
+				1C6C43FF1B1D531A0086DD36 /* TonkotsuWatchTests */,
+				1C6C44131B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension */,
+				1C6C44201B1D532C0086DD36 /* TonkotsuWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6C43E91B1D531A0086DD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C43F61B1D531A0086DD36 /* Main.storyboard in Resources */,
+				1C6C43FB1B1D531A0086DD36 /* LaunchScreen.xib in Resources */,
+				1C6C43F81B1D531A0086DD36 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C43FE1B1D531A0086DD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C44121B1D532A0086DD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C441E1B1D532C0086DD36 /* Images.xcassets in Resources */,
+				1C6C44221B1D532C0086DD36 /* TonkotsuWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C441F1B1D532C0086DD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C44381B1D54280086DD36 /* Interface.storyboard in Resources */,
+				1C6C442C1B1D532C0086DD36 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6C43E71B1D531A0086DD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C43F31B1D531A0086DD36 /* ViewController.swift in Sources */,
+				1C6C43F11B1D531A0086DD36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C43FC1B1D531A0086DD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C44071B1D531A0086DD36 /* TonkotsuWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6C44101B1D532A0086DD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C441C1B1D532C0086DD36 /* NotificationController.swift in Sources */,
+				1C6C441A1B1D532C0086DD36 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6C44021B1D531A0086DD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6C43EA1B1D531A0086DD36 /* TonkotsuWatch */;
+			targetProxy = 1C6C44011B1D531A0086DD36 /* PBXContainerItemProxy */;
+		};
+		1C6C44241B1D532C0086DD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6C44201B1D532C0086DD36 /* TonkotsuWatch WatchKit App */;
+			targetProxy = 1C6C44231B1D532C0086DD36 /* PBXContainerItemProxy */;
+		};
+		1C6C442E1B1D532C0086DD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6C44131B1D532A0086DD36 /* TonkotsuWatch WatchKit Extension */;
+			targetProxy = 1C6C442D1B1D532C0086DD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C6C43F41B1D531A0086DD36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6C43F51B1D531A0086DD36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6C43F91B1D531A0086DD36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6C43FA1B1D531A0086DD36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C6C44081B1D531A0086DD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C6C44091B1D531A0086DD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6C440B1B1D531A0086DD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TonkotsuWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C6C440C1B1D531A0086DD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TonkotsuWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C6C440E1B1D531A0086DD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TonkotsuWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TonkotsuWatch.app/TonkotsuWatch";
+			};
+			name = Debug;
+		};
+		1C6C440F1B1D531A0086DD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TonkotsuWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TonkotsuWatch.app/TonkotsuWatch";
+			};
+			name = Release;
+		};
+		1C6C44311B1D532C0086DD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TonkotsuWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TonkotsuWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1C6C44321B1D532C0086DD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TonkotsuWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TonkotsuWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1C6C44341B1D532C0086DD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TonkotsuWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C6C44351B1D532C0086DD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TonkotsuWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6C43E61B1D53190086DD36 /* Build configuration list for PBXProject "TonkotsuWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6C44081B1D531A0086DD36 /* Debug */,
+				1C6C44091B1D531A0086DD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6C440A1B1D531A0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6C440B1B1D531A0086DD36 /* Debug */,
+				1C6C440C1B1D531A0086DD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C6C440D1B1D531A0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6C440E1B1D531A0086DD36 /* Debug */,
+				1C6C440F1B1D531A0086DD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C6C44301B1D532C0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6C44311B1D532C0086DD36 /* Debug */,
+				1C6C44321B1D532C0086DD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C6C44331B1D532C0086DD36 /* Build configuration list for PBXNativeTarget "TonkotsuWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6C44341B1D532C0086DD36 /* Debug */,
+				1C6C44351B1D532C0086DD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6C43E31B1D53190086DD36 /* Project object */;
+}
